@@ -9,7 +9,7 @@ apt-get install $APTLIST -qy && \
 
 # fetch btsync packages
 # stable
- curl -o /tmp/btsync_stable.tar.gz -L https://download-cdn.getsync.com/stable/linux-x64/BitTorrent-Sync_x64.tar.gz && \
+ curl -o /tmp/btsync_stable.tar.gz -L https://download-cdn.resilio.com/stable/linux-x64/resilio-sync_x64.tar.gz && \
  mkdir -p /app/btsync-latest && \
  tar -xzvf /tmp/btsync_stable.tar.gz -C /app/btsync-latest && \
 # legacy
